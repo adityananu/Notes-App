@@ -1,0 +1,96 @@
+.main_box {
+    display: flex;
+}
+
+.notes_content {
+    margin: 5px;
+    background-color: #f8fafc;
+    height: 244px;
+    width: 279px;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: rgb(0 0 0 / 50%) 3px -1px 14px;
+}
+
+nav {
+    height: 50px;
+    display: flex;
+    place-items: center;
+}
+
+.hyper {
+    height: 48px;
+    width: 47px;
+    box-shadow: rgb(0 0 0 / 50%) 0px 3px 6px;
+    border-radius: 100px;
+}
+
+.edit {
+    padding: 8px 15px 8px 15px;
+    background-color: rgb(250, 248, 248);
+    border-radius: 50px;
+    color: rgb(12, 12, 12);
+    box-shadow: rgb(0 0 0 / 50%) 0px 3px 6px;
+}
+
+.del {
+    padding: 8px 20px 8px 20px;
+    background-color: rgb(230, 227, 227);
+    border-radius: 50px;
+    color: rgb(10, 10, 10);
+    box-shadow: rgb(0 0 0 / 50%) 0px 3px 6px;
+}
+
+.content {
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 56px;
+    padding: 0.1rem 1rem;
+    overflow: hidden;
+}
+
+.but {
+    margin-top: 39px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fully {
+    padding: 8px 20px 8px 20px;
+    background-color: white;
+    border-radius: 50px;
+    color: rgb(7, 7, 7);
+    box-shadow: rgb(0 0 0 / 50%) 0px 3px 6px;
+}
+
+.from {
+    height: 600px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.mainEhe {
+    display: flex;
+    margin-top: 40px;
+}
+
+.second {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.inner {
+    margin: 18px 7px;
+    border-left: 3px solid rgb(136, 134, 134);
+    border-radius: 6px;
+    padding-left: 10px;
+}
+
+.inner:hover {
+    transform: scale(1.09);
+}
+nav{
+    margin: -3px;
+    padding-right: 11px;
+}

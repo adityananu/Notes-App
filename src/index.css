@@ -1,0 +1,31 @@
+/* components css */
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+} */
+.add_ele {
+    margin: 62px;
+    padding: 30px 30px;
+    border-radius: 20px;
+    box-shadow: rgb(0 0 0 / 50%) 3px -1px 14px;
+}
+
+.input_type {
+    border: 2px solid black;
+    border-radius: 3px;
+    outline: none;
+    height: 16px;
+    margin: 9px;
+}
+.label{
+    height: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 1rem;
+}
+.edit.final{
+    margin-top: 10px;
+}
